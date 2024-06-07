@@ -1,0 +1,85 @@
+.div-cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.titulo-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.cadastro{
+    background-color: #83B4B8;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.div-botao-cadastro{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 180px;
+    align-items: center;
+}
+
+.botao-cadastro{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.botao-cadastro:hover{
+    background-color: #83B4B8;
+    color: white;
+    border: 1px solid black;
+}
+
+.confirmar-senha{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.confirmar-senha label{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: -340px;
+}
+
+.confirmar-senha input{
+    width: 500px;
+    height: 20px;
+    border-radius: 25px;
+    border: none;
+    padding: 4px 10px;
+}
+
+@media (max-width:800px){
+    .cadastro{
+        padding: 20px;
+    }
+}
+
+@media (max-width:500px){
+    .titulo-cadastro{
+        font-size: 12px;
+    }
+
+    .cadastro{
+        padding: 20px;
+    }
+
+   .div-botao-cadastro{
+    padding: 0px 80px;
+   }
+}
