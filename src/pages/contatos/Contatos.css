@@ -59,6 +59,18 @@
     border: none;
 }
 
+.paragrafoForms{
+    margin-top: 20px;
+    color: white;
+}
+
+.paragrafoForms a{
+    text-decoration: none;
+}
+
+.paragrafoForms a:hover{
+    color: black;
+}
 
 @media (max-width:800px){
     .divContatos{

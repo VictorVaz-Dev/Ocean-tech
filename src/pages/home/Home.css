@@ -6,9 +6,9 @@
 }
 
 .foto-fullstack-home{
-    height: 400px;
+    height: 460px;
     width: 100%;
-    background-image: url("../../assets/home/WEB-Full-Stack-Developer.jpeg");
+    background-image: url("../../assets/home/banner-ocean-tech.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

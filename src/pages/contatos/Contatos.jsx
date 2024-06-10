@@ -119,6 +119,7 @@ const Contatos = () => {
                         <textarea name="Comentario" placeholder="Deixe sua dúvida aqui" cols="30" rows="5" id="Comentario" onChange={pegarComentario}/>
                     </div>
                 <button onClick={enviarForms} className="botao-contatos">Pronto!</button>
+                <p className="paragrafoForms">Acesse nossa planilha para conferir seus dados: <a href="https://docs.google.com/spreadsheets/d/1TkQN1x3p5gSghX2hvMDNk5x9JeO1d9aklJ4S91wQorQ/edit#gid=0" target="_blank">Clique aqui</a></p>
             </div>
         </div>
     )
