@@ -97,7 +97,7 @@ const Contatos = () => {
     return(
         <div className="divContatos">
             <div className="bodyContatos">
-                <h1>Preencha seus dados para entrarmos em contato!</h1>
+                <h1>Deixe seus dados para proteger o Oceano!</h1>
                     <InputForms label="Nome" type="text" placeholder="Digite seu nome" id="Nome" value={Nome} onChange={pegarNome}/>
                     <InputForms label="E-mail" type="email" placeholder="Digite seu e-mail" id="Email" value={Email} onChange={pegarEmail}/>
                     <InputForms label="CEP" 
